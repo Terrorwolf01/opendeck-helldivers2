@@ -1,0 +1,17 @@
+[package]
+name = "helldivers2"
+edition = "2024"
+
+[dependencies]
+openaction = "2.8"
+serde = "1.0.229"
+serde_json = "1.0.151"
+tokio = { version = "1.53.1", features = ["rt-multi-thread", "macros", "time"] }
+log = "0.4.34"
+simplelog = "0.12.2"
+rdev = { version = "0.5.3", features = ["serialize", "serde"] }
+base64 = "0.23.1"
+
+
+#[patch.crates-io]
+#openaction = { git = 'https://github.com/OpenActionAPI/rust.git' }

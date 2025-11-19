@@ -1,0 +1,1250 @@
+{
+  "General": [
+    {
+      "id": "GENERAL_Hive_Breaker_Drill",
+      "title": "Hive Breaker Drill",
+      "icon": "icon/HD2-General/GENERAL_Hive_Breaker_Drill",
+      "seq": [
+        "left",
+        "up",
+        "down",
+        "right",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "GENERAL_NUX_223_Hellbomb",
+      "title": "Hellbomb",
+      "icon": "icon/HD2-General/GENERAL_NUX-223_Hellbomb",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "GENERAL_Reinforce",
+      "title": "Reinforce",
+      "icon": "icon/HD2-General/GENERAL_Reinforce",
+      "seq": [
+        "up",
+        "down",
+        "right",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "id": "GENERAL_Resupply",
+      "title": "Resupply",
+      "icon": "icon/HD2-General/GENERAL_Resupply",
+      "seq": [
+        "down",
+        "down",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "GENERAL_SEAF_Artillery",
+      "title": "SEAF Artillery",
+      "icon": "icon/HD2-General/GENERAL_SEAF_Artillery",
+      "seq": [
+        "right",
+        "up",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "id": "GENERAL_SOS_Beacon",
+      "title": "SOS Beacon",
+      "icon": "icon/HD2-General/GENERAL_SOS_Beacon",
+      "seq": [
+        "up",
+        "down",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "id": "GENERAL_Seismic_Probe",
+      "title": "Seismic Probe",
+      "icon": "icon/HD2-General/GENERAL_Seismic_Probe",
+      "seq": [
+        "up",
+        "up",
+        "left",
+        "right",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "GENERAL_Super_Earth_Flag",
+      "title": "Super Earth Flag",
+      "icon": "icon/HD2-General/GENERAL_Super_Earth_Flag",
+      "seq": [
+        "down",
+        "up",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "GENERAL_Upload_Data",
+      "title": "Upload Data",
+      "icon": "icon/HD2-General/GENERAL_Upload_Data",
+      "seq": [
+        "left",
+        "right",
+        "up",
+        "up",
+        "up"
+      ]
+    }
+  ],
+  "PatrioticAdministrationCenter": [
+    {
+      "id": "PATRIOTIC_MG-43_Machine_Gun",
+      "title": "Machine Gun",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_MG-43_Machine_Gun",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_APW-1_Anti-Materiel_Rifle",
+      "title": "Anti-Materiel Rifle",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_APW-1_Anti-Materiel_Rifle",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_M-105_Stalwart",
+      "title": "Stalwart",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_M-105_Stalwart",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_EAST-17_Expendable_Anti-Tank",
+      "title": "Expendable Anti Tank",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_EAST-17_Expendable_Anti-Tank",
+      "seq": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_GR-8_Recoilless_Rifle",
+      "title": "Recoilless Rifle",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_GR-8_Recoilless_Rifle",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_FLAM-40_Flamethrower",
+      "title": "Flamethrower",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_FLAM-40_Flamethrower",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_AC-8_Autocannon",
+      "title": "Autocannon",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_AC-8_Autocannon",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_MG-206_Heavy_Machine_Gun",
+      "title": "Heavy Machine Gun",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_MG-206_Heavy_Machine_Gun",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_RL-77_Airburst_Rocket_Launcher",
+      "title": "Airburst Rocket Launcher",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_RL-77_Airburst_Rocket_Launcher",
+      "seq": [
+        "down",
+        "up",
+        "up",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_MLS-4X_Commando",
+      "title": "Commando",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_MLS-4X_Commando",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_RS-422_Railgun",
+      "title": "Railgun",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_RS-422_Railgun",
+      "seq": [
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_FAF-14_Spear",
+      "title": "Spear",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_FAF-14_Spear",
+      "seq": [
+        "down",
+        "down",
+        "up",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "PATRIOTIC_StA-X3_WASP_Launcher",
+      "title": "W.A.S.P. Launcher",
+      "icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_StA-X3_W.A.S.P._Launcher",
+      "seq": [
+        "down",
+        "down",
+        "up",
+        "down",
+        "right"
+      ]
+    }
+  ],
+  "OrbitalCannons": [
+    {
+      "id": "ORBITAL_Orbital_Gatling_Barrage",
+      "title": "Orbital Gatling Barrage",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Gatling_Barrage",
+      "seq": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_Airburst_Strike",
+      "title": "Orbital Airburst Strike",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Airburst_Strike",
+      "seq": [
+        "right",
+        "right",
+        "right"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_120MM_HE_Barrage",
+      "title": "Orbital 120MM HE Barrage",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_120MM_HE_Barrage",
+      "seq": [
+        "right",
+        "right",
+        "down",
+        "left",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_380MM_HE_Barrage",
+      "title": "Orbital 380MM HE Barrage",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_380MM_HE_Barrage",
+      "seq": [
+        "right",
+        "down",
+        "up",
+        "up",
+        "left",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_Walking_Barrage",
+      "title": "Walking Barrage",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Walking_Barrage",
+      "seq": [
+        "right",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_Laser",
+      "title": "Orbital Laser",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Laser",
+      "seq": [
+        "right",
+        "down",
+        "up",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_Napalm_Barrage",
+      "title": "Orbital Napalm Barrage",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Napalm_Barrage",
+      "seq": [
+        "right",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "id": "ORBITAL_Orbital_Railcannon_Strike",
+      "title": "Orbital Railcannon Strike",
+      "icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_Railcannon_Strike",
+      "seq": [
+        "right",
+        "up",
+        "down",
+        "down",
+        "right"
+      ]
+    }
+  ],
+  "Hangar": [
+    {
+      "id": "HANGAR_Eagle_Rearm",
+      "title": "Eagle ReArm",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Rearm",
+      "seq": [
+        "up",
+        "up",
+        "left",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_Strafing_Run",
+      "title": "Eagle Strafing Run",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Strafing_Run",
+      "seq": [
+        "up",
+        "right",
+        "right"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_Airstrike",
+      "title": "Eagle Airstrike",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Airstrike",
+      "seq": [
+        "up",
+        "right",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_Cluster_Bomb",
+      "title": "Eagle Cluster Bomb",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Cluster_Bomb",
+      "seq": [
+        "up",
+        "right",
+        "down",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_Napalm_Airstrike",
+      "title": "Eagle Napalm Airstrike",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Napalm_Airstrike",
+      "seq": [
+        "up",
+        "right",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "HANGAR_LIFT-850_Jump_Pack",
+      "title": "Jump Pack",
+      "icon": "icon/HD2-Hangar/HANGAR_LIFT-850_Jump_Pack",
+      "seq": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_Smoke_Strike",
+      "title": "Eagle Smoke Strike",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_Smoke_Strike",
+      "seq": [
+        "up",
+        "right",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_110MM_Rocket_Pods",
+      "title": "Eagle 110MM Rocket Pods",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_110MM_Rocket_Pods",
+      "seq": [
+        "up",
+        "right",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "id": "HANGAR_Eagle_500KG_Bomb",
+      "title": "Eagle 500KG Bomb",
+      "icon": "icon/HD2-Hangar/HANGAR_Eagle_500KG_Bomb",
+      "seq": [
+        "up",
+        "right",
+        "down",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "HANGAR_M-102_Gunner_FRV",
+      "title": "Gunner FRV",
+      "icon": "icon/HD2-Hangar/HANGAR_M-102_Gunner_FRV",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "HANGAR_TD-220_Bastion_MK_XVI",
+      "title": "Bastion MK XVI",
+      "icon": "icon/HD2-Hangar/HANGAR_TD-220_Bastion_MK_XVI",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "down",
+        "up"
+      ]
+    }
+  ],
+  "Bridge": [
+    {
+      "id": "BRIDGE_Orbital_Precision_Strike",
+      "title": "Orbital Precision Strike",
+      "icon": "icon/HD2-Bridge/BRIDGE_Orbital_Precision_Strike",
+      "seq": [
+        "right",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "id": "BRIDGE_Orbital_Gas_Strike",
+      "title": "Orbital Gas Strike",
+      "icon": "icon/HD2-Bridge/BRIDGE_Orbital_Gas_Strike",
+      "seq": [
+        "right",
+        "right",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "id": "BRIDGE_Orbital_EMS_Strike",
+      "title": "Orbital EMS Strike",
+      "icon": "icon/HD2-Bridge/BRIDGE_Orbital_EMS_Strike",
+      "seq": [
+        "right",
+        "right",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "id": "BRIDGE_Orbital_Smoke_Strike",
+      "title": "Orbital Smoke Strike",
+      "icon": "icon/HD2-Bridge/BRIDGE_Orbital_Smoke_Strike",
+      "seq": [
+        "right",
+        "right",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "BRIDGE_EMG-101_HMG_Emplacement",
+      "title": "HMG Emplacement",
+      "icon": "icon/HD2-Bridge/BRIDGE_EMG-101_HMG_Emplacement",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "BRIDGE_FX-12_Shield_Generator_Relay",
+      "title": "Shield Generator Relay",
+      "icon": "icon/HD2-Bridge/BRIDGE_FX-12_Shield_Generator_Relay",
+      "seq": [
+        "down",
+        "down",
+        "left",
+        "right",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "BRIDGE_AARC-3_Tesla_Tower",
+      "title": "Tesla Tower",
+      "icon": "icon/HD2-Bridge/BRIDGE_AARC-3_Tesla_Tower",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "BRIDGE_EGL-21_Grenadier_Battlement",
+      "title": "Grenadier Battlement",
+      "icon": "icon/HD2-Bridge/BRIDGE_EGL-21_Grenadier_Battlement",
+      "seq": [
+        "down",
+        "right",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "EngineeringBay": [
+    {
+      "id": "ENGINEERING_MD-6_Anti-Personnel_Minefield",
+      "title": "Anti-Personnel Minefield",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_MD-6_Anti-Personnel_Minefield",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "ENGINEERING_B-1_Supply_Pack",
+      "title": "Supply Pack",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_B-1_Supply_Pack",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "id": "ENGINEERING_GL-21_Grenade_Launcher",
+      "title": "Grenade Launcher",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_GL-21_Grenade_Launcher",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "id": "ENGINEERING_LAS-98_Laser_Cannon",
+      "title": "Laser Cannon",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_LAS-98_Laser_Cannon",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "id": "ENGINEERING_MD-14_Incendiary_Mines",
+      "title": "Incendiary Mines",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_MD-14_Incendiary_Mines",
+      "seq": [
+        "down",
+        "left",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "id": "ENGINEERING_SH-20_Ballistic_Shield_Backpack",
+      "title": "Ballistic Shield Backpack",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_SH-20_Ballistic_Shield_Backpack",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "down",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "id": "ENGINEERING_ARC-3_Arc_Thrower",
+      "title": "Arc Thrower",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_ARC-3_Arc_Thrower",
+      "seq": [
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "left"
+      ]
+    },
+    {
+      "id": "ENGINEERING_MD-17_Anti-Tank_Mines",
+      "title": "Anti-Tank Mines",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_MD-17_Anti-Tank_Mines",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "ENGINEERING_LAS-99_Quasar_Cannon",
+      "title": "Quasar Cannon",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_LAS-99_Quasar_Cannon",
+      "seq": [
+        "down",
+        "down",
+        "up",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "ENGINEERING_SH-32_Shield_Generator_Pack",
+      "title": "Shield Generator Pack",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_SH-32_Shield_Generator_Pack",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "ENGINEERING_MD-8_Gas_Mines",
+      "title": "Gas Mines",
+      "icon": "icon/HD2-EngineeringBay/ENGINEERING_MD-8_Gas_Mines",
+      "seq": [
+        "down",
+        "left",
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "RoboticWorkshop": [
+    {
+      "id": "ROBOTIC_AMG-43_Machine_Gun_Sentry",
+      "title": "Machine Gun Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AMG-43_Machine_Gun_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AG-16_Gatling_Sentry",
+      "title": "Gatling Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AG-16_Gatling_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AM-12_Mortar_Sentry",
+      "title": "Mortar Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AM-12_Mortar_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AXAR-23_Guard_Dog",
+      "title": "Guard Dog",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AXAR-23_Guard_Dog",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AAC-8_Autocannon_Sentry",
+      "title": "Autocannon Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AAC-8_Autocannon_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AMLS-4X_Rocket_Sentry",
+      "title": "Rocket Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AMLS-4X_Rocket_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "ROBOTIC_AM-23_EMS_Sentry",
+      "title": "EMS Mortar Sentry",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AM-23_EMS_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "id": "ROBOTIC_EXO-45_Patriot_Exosuit",
+      "title": "Patriot Exosuit",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_EXO-45_Patriot_Exosuit",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "ROBOTIC_EXO-49_Emancipator_Exosuit",
+      "title": "Emancipator Exosuit",
+      "icon": "icon/HD2-RoboticWorkshop/ROBOTIC_EXO-49_Emancipator_Exosuit",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "up"
+      ]
+    }
+  ],
+  "ChemicalAgent": [
+    {
+      "id": "CHEMICAL_TX-41_Sterilizer",
+      "title": "Sterilizer",
+      "icon": "icon/HD2-ChemicalAgent/CHEMICAL_TX-41_Sterilizer",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "id": "CHEMICAL_AXTX_13_Dog_Breath",
+      "title": "Dog Breath",
+      "icon": "icon/HD2-ChemicalAgent/CHEMICAL_AXTX-13_Dog_Breath",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up"
+      ]
+    }
+  ],
+  "UrbanLegends": [
+    {
+      "id": "URBAN_SH-51_Directional_Shield",
+      "title": "Directional Shield",
+      "icon": "icon/HD2-UrbanLegends/URBAN_SH-51_Directional_Shield",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "URBAN_AFLAM-40_Flame_Sentry",
+      "title": "Flame Sentry",
+      "icon": "icon/HD2-UrbanLegends/URBAN_AFLAM-40_Flame_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "URBAN_EAT-12_Anti-Tank_Emplacement",
+      "title": "Anti-Tank Emplacement",
+      "icon": "icon/HD2-UrbanLegends/URBAN_EAT-12_Anti-Tank_Emplacement",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "right",
+        "right"
+      ]
+    }
+  ],
+  "ServantsofFreedom": [
+    {
+      "id": "SERVANTS_B-100_Portable_Hellbomb",
+      "title": "Portable Hellbomb",
+      "icon": "icon/HD2-ServantsofFreedom/SERVANTS_B-100_Portable_Hellbomb",
+      "seq": [
+        "down",
+        "right",
+        "up",
+        "up",
+        "up"
+      ]
+    }
+  ],
+  "BorderlineJustice": [
+    {
+      "id": "BORDERLINEJUSTICE_LIFT-860_Hover_Pack",
+      "title": "Hover Pack",
+      "icon": "icon/HD2-BorderlineJustice/BORDERLINEJUSTICE_LIFT-860_Hover_Pack",
+      "seq": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "MastersOfCeremony": [
+    {
+      "id": "MASTERSOFCEREMONY_CQC-1_One_True_Flag",
+      "title": "One True Flag",
+      "icon": "icon/HD2-MastersOfCeremony/MASTERSOFCEREMONY_CQC-1_One_True_Flag",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "up"
+      ]
+    }
+  ],
+  "ForceOfLaw": [
+    {
+      "id": "FORCEOFLAW_AXARC-3_K-9",
+      "title": "K-9",
+      "icon": "icon/HD2-ForceOfLaw/FORCEOFLAW_AXARC-3_K-9",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "FORCEOFLAW_GL-52_De-Escalator",
+      "title": "De-Escalator",
+      "icon": "icon/HD2-ForceOfLaw/FORCEOFLAW_GL-52_De-Escalator",
+      "seq": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "ControlGroup": [
+    {
+      "id": "CONTROLGROUP_ALAS-98_Laser_Sentry",
+      "title": "Laser Sentry",
+      "icon": "icon/HD2-ControlGroup/CONTROLGROUP_ALAS-98_Laser_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "id": "CONTROLGROUP_LIFT-182_Warp_Pack",
+      "title": "Warp Pack",
+      "icon": "icon/HD2-ControlGroup/CONTROLGROUP_LIFT-182_Warp_Pack",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "CONTROLGROUP_PLAS-45_Epoch",
+      "title": "Epoch",
+      "icon": "icon/HD2-ControlGroup/CONTROLGROUP_PLAS-45_Epoch",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "DustDevils": [
+    {
+      "id": "DUSTDEVILS_MS-111_Solo_Silo",
+      "title": "Solo Silo",
+      "icon": "icon/HD2-DustDevils/DUSTDEVILS_MS-111_Solo_Silo",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "down"
+      ]
+    },
+    {
+      "id": "DUSTDEVILS_EAT-700_Expendable_Napalm",
+      "title": "Expendable Napalm",
+      "icon": "icon/HD2-DustDevils/DUSTDEVILS_EAT-700_Expendable_Napalm",
+      "seq": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "id": "DUSTDEVILS_S-11_Speargun",
+      "title": "Speargun",
+      "icon": "icon/HD2-DustDevils/DUSTDEVILS_S-11_Speargun",
+      "seq": [
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right"
+      ]
+    }
+  ],
+  "PythonCommandos": [
+    {
+      "id": "PYTHONCOMMANDOS_M-1000_Maxigun",
+      "title": "Maxigun",
+      "icon": "icon/HD2-PythonCommandos/PYTHONCOMMANDOS_M-1000_Maxigun",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "PYTHONCOMMANDOS_CQC-9_Defoliation_Tool",
+      "title": "Defoliation Tool",
+      "icon": "icon/HD2-PythonCommandos/PYTHONCOMMANDOS_CQC-9_Defoliation_Tool",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "id": "PYTHONCOMMANDOS_AXFLAM-75_Hot_Dog",
+      "title": "Hot Dog",
+      "icon": "icon/HD2-PythonCommandos/PYTHONCOMMANDOS_AXFLAM-75_Hot_Dog",
+      "seq": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "left",
+        "left"
+      ]
+    }
+  ],
+  "RedactedRegiment": [
+    {
+      "id": "REDACTEDREGIMENT_BMD_C4_Pack",
+      "title": "C4 Pack",
+      "icon": "icon/HD2-RedactedRegiment/REDACTEDREGIMENT_BMD_C4_Pack",
+      "seq": [
+        "down",
+        "right",
+        "up",
+        "up",
+        "right",
+        "up"
+      ]
+    }
+  ],
+  "SiegeBreakers": [
+    {
+      "id": "SIEGEBREAKERS_CQC-20_Breaching_Hammer",
+      "title": "Breaching Hammer",
+      "icon": "icon/HD2-SiegeBreakers/SIEGEBREAKERS_CQC-20_Breaching_Hammer",
+      "seq": [
+        "down",
+        "left",
+        "right",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "id": "SIEGEBREAKERS_EAT-411_Leveller",
+      "title": "Leveller",
+      "icon": "icon/HD2-SiegeBreakers/SIEGEBREAKERS_EAT-411_Leveller",
+      "seq": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "id": "SIEGEBREAKERS_GL-28_Belt-Fed_Grenade_Launcher",
+      "title": "Belt-Fed Grenade Launcher",
+      "icon": "icon/HD2-SiegeBreakers/SIEGEBREAKERS_GL-28_Belt-Fed_Grenade_Launcher",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "up"
+      ]
+    }
+  ],
+  "EntrenchedDivision": [
+    {
+      "id": "ENTRENCHEDDIVISION_BFLAM-80_Cremator",
+      "title": "Cremator",
+      "icon": "icon/HD2-EntrenchedDivision/ENTRENCHEDDIVISION_BFLAM-80_Cremator",
+      "seq": [
+        "down",
+        "down",
+        "right",
+        "down",
+        "up",
+        "up"
+      ]
+    },
+    {
+      "id": "ENTRENCHEDDIVISION_AGM-117_Gas_Mortar_Sentry",
+      "title": "Gas Mortar Sentry",
+      "icon": "icon/HD2-EntrenchedDivision/ENTRENCHEDDIVISION_AGM-117_Gas_Mortar_Sentry",
+      "seq": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left"
+      ]
+    }
+  ],
+  "ExoExperts": [
+    {
+      "id": "EXOEXPERTS_EXO-55_Breakthrough_Exosuit",
+      "title": "Breakthrough Exosuit",
+      "icon": "icon/HD2-ExoExperts/EXOEXPERTS_EXO-55_Breakthrough_Exosuit",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "left",
+        "right",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "id": "EXOEXPERTS_EXO-51_Lumberer_Exosuit",
+      "title": "Lumberer Exosuit",
+      "icon": "icon/HD2-ExoExperts/EXOEXPERTS_EXO-51_Lumberer_Exosuit",
+      "seq": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "right",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "id": "EXOEXPERTS_MGX-42_Bullet_Storm",
+      "title": "Bullet Storm",
+      "icon": "icon/HD2-ExoExperts/EXOEXPERTS_MGX-42_Bullet_Storm",
+      "seq": [
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left"
+      ]
+    }
+  ],
+  "CastellansCreed": [
+    {
+      "id": "CASTELLANSCREED_40-K_Meltagun",
+      "title": "Meltagun",
+      "icon": "icon/HD2-CastellansCreed/CASTELLANSCREED_40-K_Meltagun",
+      "seq": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "left",
+        "down"
+      ]
+    }
+  ]
+}

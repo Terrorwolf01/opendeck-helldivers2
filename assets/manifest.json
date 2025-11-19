@@ -1,0 +1,327 @@
+{
+  "Name": "Helldivers2",
+  "Author": "Terrorwolf",
+  "Version": "1.0.5",
+  "Description": "Helldivers2",
+  "Category": "Helldivers2",
+  "CategoryIcon": "icon/helldivers2",
+  "UUID": "at.terrorwolf.helldivers2",
+  "SDKVersion": 3,
+  "Software": {
+    "MinimumVersion": "6.9"
+  },
+  "Icon": "icon/helldivers2",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "linux"
+    }
+  ],
+  "CodePaths": {
+    "x86_64-pc-windows-gnu": "helldivers2-x86_64-pc-windows-gnu",
+    "x86_64-unknown-linux-gnu": "helldivers2-x86_64-unknown-linux-gnu"
+  },
+  "CodePathWin": "helldivers2-x86_64-pc-windows-gnu",
+  "CodePathMac": "helldivers2-x86_64-pc-windows-gnu",
+  "CodePathLin": "helldivers2-x86_64-unknown-linux-gnu",
+  "PropertyInspectorPath": "pi/simple.html",
+  "Actions": [
+    {
+      "UUID": "at.terrorwolf.helldivers.General",
+      "Name": "General",
+      "Icon": "icon/HD2-General/GENERAL_Hive_Breaker_Drill",
+      "Tooltip": "Any General stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.PatrioticAdministrationCenter",
+      "Name": "Patriotic Administration Center",
+      "Icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_AC-8_Autocannon",
+      "Tooltip": "Any Patriotic Administration Center stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.OrbitalCannons",
+      "Name": "Orbital Cannons",
+      "Icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_120MM_HE_Barrage",
+      "Tooltip": "Any Orbital Cannons stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.Hangar",
+      "Name": "Hangar",
+      "Icon": "icon/HD2-Hangar/HANGAR_Eagle_110MM_Rocket_Pods",
+      "Tooltip": "Any Hangar stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.Bridge",
+      "Name": "Bridge",
+      "Icon": "icon/HD2-Bridge/BRIDGE_AARC-3_Tesla_Tower",
+      "Tooltip": "Any Bridge stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.EngineeringBay",
+      "Name": "Engineering Bay",
+      "Icon": "icon/HD2-EngineeringBay/ENGINEERING_ARC-3_Arc_Thrower",
+      "Tooltip": "Any Engineering Bay stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.RoboticWorkshop",
+      "Name": "Robotic Workshop",
+      "Icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AAC-8_Autocannon_Sentry",
+      "Tooltip": "Any Robotic Workshop stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.ChemicalAgent",
+      "Name": "Chemical Agent",
+      "Icon": "icon/HD2-ChemicalAgent/CHEMICAL_AXTX-13_Dog_Breath",
+      "Tooltip": "Any Chemical Agent stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.UrbanLegends",
+      "Name": "Urban Legends",
+      "Icon": "icon/HD2-UrbanLegends/URBAN_AFLAM-40_Flame_Sentry",
+      "Tooltip": "Any Urban Legends stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.ServantsofFreedom",
+      "Name": "Servants of Freedom",
+      "Icon": "icon/HD2-ServantsofFreedom/SERVANTS_B-100_Portable_Hellbomb",
+      "Tooltip": "Any Servants of Freedom stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.BorderlineJustice",
+      "Name": "Borderline Justice",
+      "Icon": "icon/HD2-BorderlineJustice/BORDERLINEJUSTICE_LIFT-860_Hover_Pack",
+      "Tooltip": "Any Borderline Justice stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.MastersOfCeremony",
+      "Name": "Masters Of Ceremony",
+      "Icon": "icon/HD2-MastersOfCeremony/MASTERSOFCEREMONY_CQC-1_One_True_Flag",
+      "Tooltip": "Any Masters Of Ceremony stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.ForceOfLaw",
+      "Name": "Force Of Law",
+      "Icon": "icon/HD2-ForceOfLaw/FORCEOFLAW_AXARC-3_K-9",
+      "Tooltip": "Any Force Of Law stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.ControlGroup",
+      "Name": "Control Group",
+      "Icon": "icon/HD2-ControlGroup/CONTROLGROUP_ALAS-98_Laser_Sentry",
+      "Tooltip": "Any Control Group stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.DustDevils",
+      "Name": "Dust Devils",
+      "Icon": "icon/HD2-DustDevils/DUSTDEVILS_MS-111_Solo_Silo",
+      "Tooltip": "Any Dust Devils stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.PythonCommandos",
+      "Name": "PythonCommandos",
+      "Icon": "icon/HD2-PythonCommandos/PYTHONCOMMANDOS_M-1000_Maxigun",
+      "Tooltip": "Any Python Commandos stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.RedactedRegiment",
+      "Name": "RedactedRegiment",
+      "Icon": "icon/HD2-RedactedRegiment/REDACTEDREGIMENT_BMD_C4_Pack",
+      "Tooltip": "Any Redacted Regiment stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.SiegeBreakers",
+      "Name": "Siege Breakers",
+      "Icon": "icon/HD2-SiegeBreakers/SIEGEBREAKERS_CQC-20_Breaching_Hammer",
+      "Tooltip": "Any Siege Breakers stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.EntrenchedDivision",
+      "Name": "Entrenched Division",
+      "Icon": "icon/HD2-EntrenchedDivision/ENTRENCHEDDIVISION_BFLAM-80_Cremator",
+      "Tooltip": "Any Entrenched Division stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.ExoExperts",
+      "Name": "Exo Experts",
+      "Icon": "icon/HD2-ExoExperts/EXOEXPERTS_EXO-55_Breakthrough_Exosuit",
+      "Tooltip": "Any Exo Experts stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    },
+    {
+      "UUID": "at.terrorwolf.helldivers.CastellansCreed",
+      "Name": "Castellan's Creed",
+      "Icon": "icon/HD2-CastellansCreed/CASTELLANSCREED_40-K_Meltagun",
+      "Tooltip": "Any Castellan's Creed stratagem",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "icon/helldivers2"
+        }
+      ]
+    }
+  ]
+}
