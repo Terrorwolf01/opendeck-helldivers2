@@ -44,7 +44,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.PatrioticAdministrationCenter",
+      "UUID": "at.terrorwolf.helldivers2.PatrioticAdministrationCenter",
       "Name": "Patriotic Administration Center",
       "Icon": "icon/HD2-PatrioticAdministrationCenter/PATRIOTIC_AC-8_Autocannon",
       "Tooltip": "Any Patriotic Administration Center stratagem",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.OrbitalCannons",
+      "UUID": "at.terrorwolf.helldivers2.OrbitalCannons",
       "Name": "Orbital Cannons",
       "Icon": "icon/HD2-OrbitalCannons/ORBITAL_Orbital_120MM_HE_Barrage",
       "Tooltip": "Any Orbital Cannons stratagem",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.Hangar",
+      "UUID": "at.terrorwolf.helldivers2.Hangar",
       "Name": "Hangar",
       "Icon": "icon/HD2-Hangar/HANGAR_Eagle_110MM_Rocket_Pods",
       "Tooltip": "Any Hangar stratagem",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.Bridge",
+      "UUID": "at.terrorwolf.helldivers2.Bridge",
       "Name": "Bridge",
       "Icon": "icon/HD2-Bridge/BRIDGE_AARC-3_Tesla_Tower",
       "Tooltip": "Any Bridge stratagem",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.EngineeringBay",
+      "UUID": "at.terrorwolf.helldivers2.EngineeringBay",
       "Name": "Engineering Bay",
       "Icon": "icon/HD2-EngineeringBay/ENGINEERING_ARC-3_Arc_Thrower",
       "Tooltip": "Any Engineering Bay stratagem",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.RoboticWorkshop",
+      "UUID": "at.terrorwolf.helldivers2.RoboticWorkshop",
       "Name": "Robotic Workshop",
       "Icon": "icon/HD2-RoboticWorkshop/ROBOTIC_AAC-8_Autocannon_Sentry",
       "Tooltip": "Any Robotic Workshop stratagem",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.ChemicalAgent",
+      "UUID": "at.terrorwolf.helldivers2.ChemicalAgent",
       "Name": "Chemical Agent",
       "Icon": "icon/HD2-ChemicalAgent/CHEMICAL_AXTX-13_Dog_Breath",
       "Tooltip": "Any Chemical Agent stratagem",
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.UrbanLegends",
+      "UUID": "at.terrorwolf.helldivers2.UrbanLegends",
       "Name": "Urban Legends",
       "Icon": "icon/HD2-UrbanLegends/URBAN_AFLAM-40_Flame_Sentry",
       "Tooltip": "Any Urban Legends stratagem",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.ServantsofFreedom",
+      "UUID": "at.terrorwolf.helldivers2.ServantsofFreedom",
       "Name": "Servants of Freedom",
       "Icon": "icon/HD2-ServantsofFreedom/SERVANTS_B-100_Portable_Hellbomb",
       "Tooltip": "Any Servants of Freedom stratagem",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.BorderlineJustice",
+      "UUID": "at.terrorwolf.helldivers2.BorderlineJustice",
       "Name": "Borderline Justice",
       "Icon": "icon/HD2-BorderlineJustice/BORDERLINEJUSTICE_LIFT-860_Hover_Pack",
       "Tooltip": "Any Borderline Justice stratagem",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.MastersOfCeremony",
+      "UUID": "at.terrorwolf.helldivers2.MastersOfCeremony",
       "Name": "Masters Of Ceremony",
       "Icon": "icon/HD2-MastersOfCeremony/MASTERSOFCEREMONY_CQC-1_One_True_Flag",
       "Tooltip": "Any Masters Of Ceremony stratagem",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.ForceOfLaw",
+      "UUID": "at.terrorwolf.helldivers2.ForceOfLaw",
       "Name": "Force Of Law",
       "Icon": "icon/HD2-ForceOfLaw/FORCEOFLAW_AXARC-3_K-9",
       "Tooltip": "Any Force Of Law stratagem",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.ControlGroup",
+      "UUID": "at.terrorwolf.helldivers2.ControlGroup",
       "Name": "Control Group",
       "Icon": "icon/HD2-ControlGroup/CONTROLGROUP_ALAS-98_Laser_Sentry",
       "Tooltip": "Any Control Group stratagem",
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.DustDevils",
+      "UUID": "at.terrorwolf.helldivers2.DustDevils",
       "Name": "Dust Devils",
       "Icon": "icon/HD2-DustDevils/DUSTDEVILS_MS-111_Solo_Silo",
       "Tooltip": "Any Dust Devils stratagem",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.PythonCommandos",
+      "UUID": "at.terrorwolf.helldivers2.PythonCommandos",
       "Name": "PythonCommandos",
       "Icon": "icon/HD2-PythonCommandos/PYTHONCOMMANDOS_M-1000_Maxigun",
       "Tooltip": "Any Python Commandos stratagem",
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.RedactedRegiment",
+      "UUID": "at.terrorwolf.helldivers2.RedactedRegiment",
       "Name": "RedactedRegiment",
       "Icon": "icon/HD2-RedactedRegiment/REDACTEDREGIMENT_BMD_C4_Pack",
       "Tooltip": "Any Redacted Regiment stratagem",
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.SiegeBreakers",
+      "UUID": "at.terrorwolf.helldivers2.SiegeBreakers",
       "Name": "Siege Breakers",
       "Icon": "icon/HD2-SiegeBreakers/SIEGEBREAKERS_CQC-20_Breaching_Hammer",
       "Tooltip": "Any Siege Breakers stratagem",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.EntrenchedDivision",
+      "UUID": "at.terrorwolf.helldivers2.EntrenchedDivision",
       "Name": "Entrenched Division",
       "Icon": "icon/HD2-EntrenchedDivision/ENTRENCHEDDIVISION_BFLAM-80_Cremator",
       "Tooltip": "Any Entrenched Division stratagem",
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.ExoExperts",
+      "UUID": "at.terrorwolf.helldivers2.ExoExperts",
       "Name": "Exo Experts",
       "Icon": "icon/HD2-ExoExperts/EXOEXPERTS_EXO-55_Breakthrough_Exosuit",
       "Tooltip": "Any Exo Experts stratagem",
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "UUID": "at.terrorwolf.helldivers.CastellansCreed",
+      "UUID": "at.terrorwolf.helldivers2.CastellansCreed",
       "Name": "Castellan's Creed",
       "Icon": "icon/HD2-CastellansCreed/CASTELLANSCREED_40-K_Meltagun",
       "Tooltip": "Any Castellan's Creed stratagem",
