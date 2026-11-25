@@ -20,7 +20,11 @@ For bugs, include:
 
 1. Fork the repository and create a branch from **`develop`**.
 2. Make your changes (see the checks below).
-3. Open a pull request **against `develop`**, not `main`. Describe what you changed and why.
+3. Open a pull request **against `develop`**, not `main`, and fill in the pull request template.
+   Describe what you changed and why.
+
+**Pull requests from non-maintainers that don't use the pull request template will be closed
+without review.**
 
 `main` only receives changes from `develop` via pull request and is what releases are built from.
 All pull requests must pass CI (build, lints, tests) and CodeQL before they can be merged.
