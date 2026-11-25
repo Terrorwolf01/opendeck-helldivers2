@@ -1,0 +1,28 @@
+name: Sync develop
+
+# After a develop -> main merge, fast-forward develop to main so both point at the same commit.
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # push to develop
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # full history, needed to compare the branches
+
+      - name: Fast-forward develop to main
+        run: |
+          if git merge-base --is-ancestor origin/develop origin/main; then
+            git push origin origin/main:refs/heads/develop
+          else
+            echo "::notice::develop has commits that aren't on main yet - skipping, they'll reach main with the next PR."
+          fi
