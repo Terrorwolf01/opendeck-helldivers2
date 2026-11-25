@@ -1,0 +1,71 @@
+name: Feature request
+description: Suggest a new feature, or request a missing stratagem or warbond.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your suggestion!
+
+        If an existing stratagem enters the **wrong** sequence, please open a **Bug report** instead.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of request is this?
+      options:
+        - Missing stratagem
+        - New warbond
+        - New setting or key option
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your request
+      description: What should the plugin do, and why would it be useful?
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Missing stratagem / new warbond
+
+        Only needed for those two request types - it lets the stratagem be added without guessing.
+
+  - type: input
+    id: stratagem-name
+    attributes:
+      label: Stratagem name
+      description: Exactly as shown in-game.
+      placeholder: e.g. Orbital Precision Strike
+
+  - type: input
+    id: stratagem-group
+    attributes:
+      label: Group / warbond
+      description: The in-game category or warbond it belongs to.
+      placeholder: e.g. Bridge, or the name of a new warbond
+
+  - type: input
+    id: stratagem-sequence
+    attributes:
+      label: Input sequence
+      description: The arrow sequence from the in-game stratagem menu.
+      placeholder: e.g. right, right, up
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workaround you use today, or other ways this could work.
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to implement this myself (see CONTRIBUTING.md).
