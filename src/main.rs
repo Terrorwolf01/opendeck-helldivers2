@@ -35,7 +35,7 @@ pub struct ActionSettings {
 	pub delay: Option<u64>,
 }
 
-const DEFAULT_DELAY_MS: u64 = 20;
+const DEFAULT_DELAY_MS: u64 = 30;
 
 impl ActionSettings {
 	pub fn delay(&self) -> time::Duration {
