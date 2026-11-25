@@ -4,6 +4,8 @@ An OpenAction ([OpenDeck](https://github.com/nekename/OpenDeck) / [Tacto](https:
 plugin for Helldivers 2: put stratagems on your deck's keys, and a key press enters the full
 stratagem input sequence in-game for you.
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/17120/badge)](https://www.bestpractices.dev/projects/17120)
+
 ## Requirements
 
 - OpenDeck 6.9 or newer (or Tacto)
