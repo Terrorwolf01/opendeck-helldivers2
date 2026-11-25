@@ -44,4 +44,20 @@ mod tests {
 			assert!(!s.icon.is_empty(), "{} has no icon", s.id);
 		}
 	}
+
+	// Every stratagem's icon must exist in assets/, or its key shows no image.
+	#[test]
+	fn icons_exist() {
+		let assets = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("assets");
+		for s in super::all().values().flatten() {
+			let path = assets.join(format!("{}.png", s.icon));
+			assert!(path.is_file(), "{}: missing icon {}", s.id, path.display());
+		}
+	}
+
+	#[test]
+	fn unknown_ids_are_not_found() {
+		assert!(super::find("General", "DOES_NOT_EXIST").is_none());
+		assert!(super::find("NoSuchGroup", "GENERAL_Reinforce").is_none());
+	}
 }
