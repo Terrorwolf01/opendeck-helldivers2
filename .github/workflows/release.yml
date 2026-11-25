@@ -16,7 +16,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # needed by `gh releases create`
+      id-token: write # Sigstore Signing (OIDC)
+      attestations: write # store the attestation on GitHub
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -72,7 +74,18 @@ jobs:
       - name: Package plugin
         run: ./package.sh
 
+      - name: Attest build provenance
+        id: attest
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: "*.streamDeckPlugin"
+
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" *.streamDeckPlugin --title "$GITHUB_REF_NAME" --generate-notes
+        run: |
+          for f in *.streamDeckPlugin; do
+            cp "${{ steps.attest.outputs.bundle-path }}" "$f.sigstore.json"
+          done
+          gh release create "$GITHUB_REF_NAME" *.streamDeckPlugin *.sigstore.json \
+            --title "$GITHUB_REF_NAME" --generate-notes
