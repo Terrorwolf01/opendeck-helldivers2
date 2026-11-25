@@ -132,7 +132,6 @@ fn modifier_press(choice: &Option<String>, delay: time::Duration) {
 		}
 		Err(error) => {
 			eprintln!("Failed to deserialize: {}", error);
-			return;
 		}
 	}
 }
@@ -148,7 +147,6 @@ fn modifier_release(choice: &Option<String>, delay: time::Duration) {
 		}
 		Err(error) => {
 			eprintln!("Failed to deserialize: {}", error);
-			return;
 		}
 	}
 }
@@ -161,7 +159,6 @@ fn pressrelease(choice_str: String, delay: time::Duration) {
 		}
 		Err(error) => {
 			eprintln!("Failed to deserialize: {}", error);
-			return;
 		}
 	}
 }
