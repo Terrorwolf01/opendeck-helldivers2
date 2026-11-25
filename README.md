@@ -54,7 +54,7 @@ A key without a selected stratagem shows a placeholder icon and does nothing.
 | Setting    | Default | Description                                                                  |
 |------------|---------|------------------------------------------------------------------------------|
 | Stratagem  | -       | The stratagem this key enters.                                               |
-| Delay (ms) | 20      | Pause after each simulated key event. Increase it if the game misses inputs. |
+| Delay (ms) | 30      | Pause after each simulated key event. Increase it if the game misses inputs. |
 
 **Global (shared by all keys)** - these must match your in-game keybindings:
 

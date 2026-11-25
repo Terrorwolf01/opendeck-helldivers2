@@ -11,7 +11,7 @@
         $actionSettings = {...$actionSettings, stratagem: item.id};
     }
 
-    const DEFAULT_DELAY_MS = 20;
+    const DEFAULT_DELAY_MS = 30;
 
     function updateDelay(event: Event) {
         const raw = (event.target as HTMLInputElement).value.trim();
