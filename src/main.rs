@@ -204,3 +204,63 @@ fn send(event_type: &EventType, delay: time::Duration) {
 	// Let the OS catch up (at least macOS)
 	thread::sleep(delay);
 }
+
+#[cfg(test)]
+mod tests {
+	use super::*;
+
+	// The property inspector page that offers the key choices and shows the default delay.
+	const PI_PAGE: &str = include_str!("../pi/src/routes/simple/+page.svelte");
+
+	// Every key the property inspector offers must be a valid rdev key name, or pressing it
+	// fails at runtime with "Failed to deserialize". The choices are read from the PI page itself,
+	// so new options are checked automatically.
+	#[test]
+	fn pi_key_choices_are_valid_rdev_keys() {
+		let keys: Vec<&str> = PI_PAGE
+			.split("value: \"")
+			.skip(1)
+			.filter_map(|rest| rest.split('"').next())
+			.collect();
+		assert!(
+			keys.len() >= 12,
+			"found only {} key choices in the PI page",
+			keys.len()
+		);
+		for key in keys {
+			assert!(
+				serde_json::from_str::<rdev::Key>(&format!("\"{key}\"")).is_ok(),
+				"{key} is not a valid rdev key"
+			);
+		}
+	}
+
+	// The PI shows "Default (<n>)" as the delay placeholder - it must match what the plugin uses.
+	#[test]
+	fn pi_default_delay_matches_plugin() {
+		let pi_default: u64 = PI_PAGE
+			.split("const DEFAULT_DELAY_MS = ")
+			.nth(1)
+			.and_then(|rest| rest.split(';').next())
+			.and_then(|value| value.trim().parse().ok())
+			.expect("DEFAULT_DELAY_MS not found in the PI page");
+		assert_eq!(pi_default, DEFAULT_DELAY_MS);
+	}
+
+	#[test]
+	fn empty_settings_use_defaults() {
+		let global: GlobalSettings = serde_json::from_str("{}").unwrap();
+		assert!(global.modifier.is_none() && global.up.is_none());
+		let action: ActionSettings = serde_json::from_str("{}").unwrap();
+		assert_eq!(
+			action.delay(),
+			time::Duration::from_millis(DEFAULT_DELAY_MS)
+		);
+	}
+
+	#[test]
+	fn custom_delay_is_used() {
+		let action: ActionSettings = serde_json::from_str(r#"{"delay": 50}"#).unwrap();
+		assert_eq!(action.delay(), time::Duration::from_millis(50));
+	}
+}
