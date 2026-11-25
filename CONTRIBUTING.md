@@ -25,6 +25,25 @@ For bugs, include:
 `main` only receives changes from `develop` via pull request and is what releases are built from.
 All pull requests must pass CI (build, lints, tests) and CodeQL before they can be merged.
 
+## Requirements for Contributions
+
+A pull request can be merged when it meets these requirements:
+
+- **It passes CI and CodeQL.** Formatting, lints, tests and the property inspector build must all
+  succeed (see [Checks](#checks)).
+- **Rust code follows the coding standard:** the
+  [Rust Style Guide](https://doc.rust-lang.org/stable/style-guide/), enforced by `rustfmt` with the
+  repository's `rustfmt.toml`, and is free of
+  [Clippy](https://doc.rust-lang.org/stable/clippy/) warnings (`-D warnings`).
+- **Property inspector code** (TypeScript / Svelte) is formatted with
+  [Prettier](https://prettier.io) using the configuration in `pi/package.json`, and passes
+  `svelte-check` without errors.
+- **It includes tests** for new functionality or bug fixes where practical (see [Tests](#tests)).
+- **It is focused:** one topic per pull request, with a description of what changed and why.
+- **Stratagem data is correct:** input sequences have been checked in-game
+  (see [Adding Stratagems](#adding-stratagems)).
+- **It is licensed under the project's** [MIT License](LICENSE).
+
 ## Development Setup
 
 The build scripts are Bash scripts and are developed on Linux. On Windows, use WSL.
