@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    name: Rust (fmt, clippy, test)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install X11 development libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xorg-dev pkg-config
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+
+      - name: Check formatting
+        run: cargo fmt --check
+
+      - name: Clippy
+        run: cargo clippy --locked --all-targets -- -D warnings
+
+      - name: Test
+        run: cargo test --locked
+
+  pi:
+    name: PI (check, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pi
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+        with:
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: deno install --frozen
+
+      - name: Type check
+        run: deno task check
+
+      - name: Build
+        run: deno task build
