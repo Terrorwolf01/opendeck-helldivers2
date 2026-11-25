@@ -34,6 +34,21 @@ jobs:
             exit 1
           fi
 
+      # The release notes are the tag's section of CHANGELOG.md - fails here, before building
+      # anything, if that section is missing or empty.
+      - name: Extract release notes from CHANGELOG.md
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          awk -v v="$version" '
+            index($0, "## [" v "]") == 1 { found = 1; next }
+            found && /^## \[/ { exit }
+            found { print }
+          ' CHANGELOG.md > release-notes.md
+          if ! grep -q '[^[:space:]]' release-notes.md; then
+            echo "::error::CHANGELOG.md has no entry for $version."
+            exit 1
+          fi
+
       - name: Determine build targets
         id: targets
         run: |
@@ -88,4 +103,4 @@ jobs:
             cp "${{ steps.attest.outputs.bundle-path }}" "$f.sigstore.json"
           done
           gh release create "$GITHUB_REF_NAME" *.streamDeckPlugin *.sigstore.json \
-            --title "$GITHUB_REF_NAME" --generate-notes
+            --title "$GITHUB_REF_NAME" --notes-file release-notes.md
