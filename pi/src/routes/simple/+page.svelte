@@ -1,9 +1,9 @@
 <script lang="ts">
-	import {actionInfo, actionSettings, eventTarget, globalSettings,} from "@openaction/svelte-pi";
-	import StratagemCombobox from "$lib/StratagemCombobox.svelte";
-	import {type Stratagem, stratagemGroups} from "$lib/stratagems";
+    import {actionInfo, actionSettings, eventTarget, globalSettings,} from "@openaction/svelte-pi";
+    import StratagemCombobox from "#lib/StratagemCombobox.svelte";
+    import {type Stratagem, stratagemGroups} from "#lib/stratagems.ts";
 
-	// The last UUID segment is the group, e.g. "at.terrorwolf.helldivers2.Bridge" -> "Bridge".
+    // The last UUID segment is the group, e.g. "at.terrorwolf.helldivers2.Bridge" -> "Bridge".
     $: group = ($actionInfo?.action ?? "").split(".").pop() ?? "";
     $: stratagems = stratagemGroups[group] ?? [];
 
