@@ -87,10 +87,8 @@ the property inspector.
 - **Existing group:** add an entry with `id`, `title`, `icon` and `seq` (the input sequence using
   `up`, `down`, `left`, `right`) to the matching group, and add the icon as a PNG under
   `assets/icon/HD2-<Group>/`. The `icon` value is that path without `.png`.
-- **New group (e.g. a new warbond):** additionally add a matching action
-  (`at.terrorwolf.helldivers2.<Group>`) to `assets/manifest.json`.
-- **Update the test:** the `loads` test in `src/stratagems.rs` checks the total number of
-  stratagems - increase it by the number you added.
+- **New group (e.g. a new warbond):** additionally add a matching action (`at.terrorwolf.helldivers2.<Group>`) to
+  `assets/manifest.json`.
 
 Please double-check input sequences in-game - a wrong sequence is the most common bug.
 

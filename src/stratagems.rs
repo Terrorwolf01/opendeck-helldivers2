@@ -39,6 +39,9 @@ mod tests {
 	fn loads() {
 		let s = super::find("General", "GENERAL_Reinforce").unwrap();
 		assert_eq!(s.seq.len(), 5);
-		assert_eq!(super::all().values().map(Vec::len).sum::<usize>(), 98);
+		for s in super::all().values().flatten() {
+			assert!(!s.seq.is_empty(), "{} has no input sequence", s.id);
+			assert!(!s.icon.is_empty(), "{} has no icon", s.id);
+		}
 	}
 }
