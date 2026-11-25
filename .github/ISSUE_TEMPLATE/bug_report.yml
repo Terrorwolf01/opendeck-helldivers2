@@ -1,0 +1,117 @@
+name: Bug report
+description: Something doesn't work as expected (e.g. a stratagem isn't entered correctly).
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+
+        **Security vulnerabilities** must not be reported here - please follow
+        [SECURITY.md](https://github.com/Terrorwolf01/opendeck-helldivers2/blob/main/SECURITY.md) instead.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem. Which action and stratagem are affected?
+      placeholder: e.g. "Bridge -> Orbital Precision Strike opens the stratagem menu but enters the wrong sequence."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add the "Bridge" action to a key
+        2. Select "Orbital Precision Strike"
+        3. Press the key in-game
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Shown in OpenDeck's plugin list.
+      placeholder: e.g. 3.1.1
+    validations:
+      required: true
+
+  - type: input
+    id: opendeck-version
+    attributes:
+      label: OpenDeck / Tacto version
+      description: Which app you use and its version.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Linux (native OpenDeck)
+        - Linux (OpenDeck Flatpak)
+        - Windows
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os-details
+    attributes:
+      label: Distribution / desktop
+      description: On Linux, your distribution and whether you use X11 or Wayland.
+      placeholder: e.g. Arch Linux, KDE Plasma (Wayland)
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Key settings
+      description: Your Modifier / Up / Down / Left / Right keys and the delay, if you changed them from the defaults.
+      placeholder: "e.g. Modifier: ControlLeft, directions: W/A/S/D, delay: 30 ms"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Logs
+
+        Both logs are **required**. Reproduce the problem first, then paste the contents of both
+        log files into the fields below.
+
+        | | Linux (native) | Linux (Flatpak) |
+        |---|---|---|
+        | OpenDeck log | `~/.local/share/opendeck/logs/opendeck.log` | `~/.var/app/me.amankhanna.opendeck/data/opendeck/logs/opendeck.log` |
+        | Plugin log | `~/.local/share/opendeck/logs/plugins/at.terrorwolf.helldivers2.sdPlugin.log` | `~/.var/app/me.amankhanna.opendeck/data/opendeck/logs/plugins/at.terrorwolf.helldivers2.sdPlugin.log` |
+
+        On **Windows**, the logs are in `%APPDATA%\opendeck\logs\` (OpenDeck log) and
+        `%APPDATA%\opendeck\logs\plugins\` (plugin log).
+
+        Logs can contain your username in file paths - feel free to replace it before posting.
+
+  - type: textarea
+    id: opendeck-log
+    attributes:
+      label: OpenDeck log
+      description: Contents of `opendeck.log`.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: plugin-log
+    attributes:
+      label: Plugin log
+      description: Contents of `at.terrorwolf.helldivers2.sdPlugin.log`.
+      render: text
+    validations:
+      required: true
