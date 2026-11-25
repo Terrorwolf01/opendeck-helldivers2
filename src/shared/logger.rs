@@ -14,8 +14,8 @@
 // already writes for you - a low-enough cost to not bother detecting the host at all.
 
 use simplelog::{
-    ColorChoice, CombinedLogger, Config, LevelFilter, SharedLogger, TermLogger, TerminalMode,
-    WriteLogger,
+	ColorChoice, CombinedLogger, Config, LevelFilter, SharedLogger, TermLogger, TerminalMode,
+	WriteLogger,
 };
 
 // Sets up logging for an OpenAction plugin: stdout (for OpenDeck's own log capture) plus
