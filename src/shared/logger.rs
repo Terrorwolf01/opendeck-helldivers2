@@ -56,6 +56,6 @@ pub fn init() {
 	}
 
 	if let Err(error) = CombinedLogger::init(loggers) {
-		eprintln!("Logger initialization failed: {}", error);
+		eprintln!("Logger initialization failed: {error}");
 	}
 }
