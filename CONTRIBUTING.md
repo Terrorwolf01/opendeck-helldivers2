@@ -29,6 +29,13 @@ without review.**
 `main` only receives changes from `develop` via pull request and is what releases are built from.
 All pull requests must pass CI (build, lints, tests) and CodeQL before they can be merged.
 
+### Good First Issues
+
+New to the project? Issues labelled
+[`good first issue`](https://github.com/Terrorwolf01/opendeck-helldivers2/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22)
+are small, self-contained tasks that are a good way to get started. Comment on the issue before
+you start, so nobody works on the same thing twice.
+
 ## Requirements for Contributions
 
 A pull request can be merged when it meets these requirements:
