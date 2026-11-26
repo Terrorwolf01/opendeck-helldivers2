@@ -56,10 +56,10 @@ impl global_events::GlobalEventHandler for GlobalSettingsHandler {
 		&self,
 		event: global_events::DidReceiveGlobalSettingsEvent,
 	) -> OpenActionResult<()> {
-		info!("Globale Settings did_receive_global_settings: {:?}", event);
+		info!("Globale Settings did_receive_global_settings: {event:?}");
 		let settings: GlobalSettings =
 			serde_json::from_value(event.payload.settings).unwrap_or_default();
-		info!("Global Settings deserialized: {:?}", settings);
+		info!("Global Settings deserialized: {settings:?}");
 		*current_global_settings().write().await = settings;
 		Ok(())
 	}
@@ -91,7 +91,7 @@ pub async fn push_global_settings(instance: &Instance) -> OpenActionResult<()> {
 fn up(choice: &Option<String>, delay: time::Duration) {
 	//info!("up1 {:?}", choice);
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"UpArrow\"".to_string(),
 	};
 	pressrelease(choice_str, delay);
@@ -99,7 +99,7 @@ fn up(choice: &Option<String>, delay: time::Duration) {
 
 fn down(choice: &Option<String>, delay: time::Duration) {
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"DownArrow\"".to_string(),
 	};
 	pressrelease(choice_str, delay);
@@ -107,7 +107,7 @@ fn down(choice: &Option<String>, delay: time::Duration) {
 
 fn left(choice: &Option<String>, delay: time::Duration) {
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"LeftArrow\"".to_string(),
 	};
 	pressrelease(choice_str, delay);
@@ -115,7 +115,7 @@ fn left(choice: &Option<String>, delay: time::Duration) {
 
 fn right(choice: &Option<String>, delay: time::Duration) {
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"RightArrow\"".to_string(),
 	};
 	pressrelease(choice_str, delay);
@@ -123,7 +123,7 @@ fn right(choice: &Option<String>, delay: time::Duration) {
 
 fn modifier_press(choice: &Option<String>, delay: time::Duration) {
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"ControlLeft\"".to_string(),
 	};
 	match serde_json::from_str(&choice_str) {
@@ -131,14 +131,14 @@ fn modifier_press(choice: &Option<String>, delay: time::Duration) {
 			send(&EventType::KeyPress(key), delay);
 		}
 		Err(error) => {
-			eprintln!("Failed to deserialize: {}", error);
+			eprintln!("Failed to deserialize: {error}");
 		}
 	}
 }
 
 fn modifier_release(choice: &Option<String>, delay: time::Duration) {
 	let choice_str = match choice {
-		Some(s) => format!("\"{}\"", s),
+		Some(s) => format!("\"{s}\""),
 		None => "\"ControlLeft\"".to_string(),
 	};
 	match serde_json::from_str(&choice_str) {
@@ -146,7 +146,7 @@ fn modifier_release(choice: &Option<String>, delay: time::Duration) {
 			send(&EventType::KeyRelease(key), delay);
 		}
 		Err(error) => {
-			eprintln!("Failed to deserialize: {}", error);
+			eprintln!("Failed to deserialize: {error}");
 		}
 	}
 }
@@ -158,7 +158,7 @@ fn pressrelease(choice_str: String, delay: time::Duration) {
 			send(&EventType::KeyRelease(key), delay);
 		}
 		Err(error) => {
-			eprintln!("Failed to deserialize: {}", error);
+			eprintln!("Failed to deserialize: {error}");
 		}
 	}
 }
@@ -198,7 +198,7 @@ fn send(event_type: &EventType, delay: time::Duration) {
 	match simulate(event_type) {
 		Ok(()) => (),
 		Err(SimulateError) => {
-			println!("We could not send {:?}", event_type);
+			println!("We could not send {event_type:?}");
 		}
 	}
 	// Let the OS catch up (at least macOS)
