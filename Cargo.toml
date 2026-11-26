@@ -12,6 +12,9 @@ simplelog = "0.12.2"
 rdev = { version = "0.5.3", features = ["serialize", "serde"] }
 base64 = "0.23.1"
 
+[profile.release]
+# Hardening: panic on integer overflow instead of silently wrapping (see docs/security-review.md).
+overflow-checks = true
 
 #[patch.crates-io]
 #openaction = { git = 'https://github.com/OpenActionAPI/rust.git' }
