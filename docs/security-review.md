@@ -124,6 +124,18 @@ unencrypted. The only cryptographic primitive in the dependency tree is SHA-1 in
 handshake, mandated by RFC 6455 as a protocol check (not a security mechanism); random values
 for the handshake and frame masks come from `rand`'s CSPRNG.
 
+### 5.5 Hardening
+
+- Safe Rust only (no `unsafe`): memory safety and bounds checks are enforced by the compiler.
+- Integer overflow checks are enabled in release builds (`overflow-checks = true` in
+  `Cargo.toml`), so an overflow stops the plugin instead of silently wrapping.
+- Release binaries are built as position-independent executables (ASLR), with full RELRO
+  (`BIND_NOW`) and a non-executable stack, verified with `readelf`.
+- Stack probes protect against stack-clash attacks (Rust default on x86-64).
+- Tests run with debug assertions and integer overflow checks enabled, and under Miri to detect
+  undefined behaviour.
+- The property inspector uses Svelte's automatic output escaping and TypeScript strict mode.
+
 ## 6. Findings
 
 Found during this review:
